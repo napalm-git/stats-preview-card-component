@@ -28,7 +28,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 2rem;
+  padding: 1.875rem 5rem;
   flex-wrap: wrap;
 }
 
@@ -52,7 +52,7 @@ body {
 
 .info-numbers {
   display: flex;
-  gap: 50px;
+  gap: 65px;
   align-items: center;
   justify-content: flex-start;
   width: 100%;
@@ -96,7 +96,11 @@ body {
   border-bottom-right-radius: 10px;
 }
 
-@media (min-width: 660px) and (max-width: 1023px) {
+@media (min-width: 660px) and (max-width: 1024px) {
+  .info {
+    padding: 1.875rem 2rem;
+  }
+
   .info-header {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
