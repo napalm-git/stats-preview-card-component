@@ -31,3 +31,9 @@ body {
   padding: 0 2rem;
   flex-wrap: wrap;
 }
+
+.info-header {
+  margin-bottom: 2rem;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
