@@ -75,6 +75,9 @@ body {
 
 .hero-image {
   position: relative;
+  background-color: blueviolet;
+  opacity: 0.8;
+  vertical-align: middle;
 }
 
 .overlay {
@@ -94,6 +97,7 @@ body {
   width: 100%;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  mix-blend-mode: multiply;
 }
 
 @media (min-width: 660px) and (max-width: 1024px) {
