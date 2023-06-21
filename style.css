@@ -41,3 +41,20 @@ body {
 .info-header span {
   color: hsl(277, 64%, 61%);
 }
+
+.info-text {
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+  font-size: 0.9375rem;
+}
+
+.info-numbers {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  line-height: 1.4;
+  margin-top: 3rem;
+}
